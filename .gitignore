@@ -1,0 +1,18 @@
+node_modules/
+dist/
+.DS_Store
+.env
+.env.*
+!.env.example
+*.log
+coverage/
+artifacts/
+backups/
+*-backup-*.json
+# Private source research contains device photos and the owner's records.
+docs/SERVICE_REPORT_RESEARCH.md
+docs/IPHONE_IMPLEMENTATION_PLAN.md
+*.jpg
+*.jpeg
+*.heic
+

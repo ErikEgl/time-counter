@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#101214">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Мой отчёт">
+  <meta name="description" content="Личный дневник служения. Вся история на вашем устройстве, доступна без интернета.">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'none'">
+  <link rel="manifest" href="./manifest.webmanifest">
+  <link rel="icon" type="image/svg+xml" href="./icons/icon.svg">
+  <link rel="apple-touch-icon" href="./icons/apple-touch-icon.png">
+  <link rel="stylesheet" href="./styles.css">
+  <title>Мой отчёт</title>
+</head>
+<body>
+  <div id="app" aria-busy="true"><main class="startup"><span class="brand-mark">М</span><h1>Мой отчёт</h1><p>Открываем вашу историю…</p></main></div>
+  <div id="toast" role="status" aria-live="polite"></div>
+  <dialog id="dialog" aria-labelledby="dialog-title"></dialog>
+  <input id="import-file" type="file" accept="application/json,.json" hidden>
+  <script type="module" src="./app.mjs"></script>
+  <noscript>Для работы приложения включите JavaScript. Данные сохраняются на вашем устройстве.</noscript>
+</body>
+</html>
